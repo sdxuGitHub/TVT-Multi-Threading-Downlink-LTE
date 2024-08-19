@@ -1,0 +1,2 @@
+source oai
+./cmake_targets/build_oai -w USRP -x -C --eNB -V

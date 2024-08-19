@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libLMS7002M.a"
+)

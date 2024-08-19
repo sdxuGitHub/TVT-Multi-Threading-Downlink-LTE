@@ -1,0 +1,1 @@
+./cmake_targets/lte_build_oai/build/lte-softmodem -O targets/PROJECTS/GENERIC-LTE-EPC/CONF/enb.band7.tm1.100PRB.usrpb210.conf -V

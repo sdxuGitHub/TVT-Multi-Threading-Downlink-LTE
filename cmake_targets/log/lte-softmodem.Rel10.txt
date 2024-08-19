@@ -1,0 +1,1735 @@
+Scanning dependencies of target HASHTABLE
+[  0%] Building C object CMakeFiles/HASHTABLE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/hashtable/hashtable.c.o
+Scanning dependencies of target UDP
+[  0%] Building C object CMakeFiles/HASHTABLE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/hashtable/obj_hashtable.c.o
+Scanning dependencies of target SCTP_CLIENT
+[  0%] Building C object CMakeFiles/UDP.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/UDP/udp_eNB_task.c.o
+Scanning dependencies of target GTPV1U
+[  0%] Building C object CMakeFiles/SCTP_CLIENT.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SCTP/sctp_common.c.o
+[  0%] Building C object CMakeFiles/GTPV1U.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/rrc_eNB_GTPV1U.c.o
+Scanning dependencies of target SCHED_LIB
+[  0%] Building C object CMakeFiles/SCHED_LIB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c.o
+[  0%] Linking C static library libHASHTABLE.a
+[  0%] Built target HASHTABLE
+[  0%] Building C object CMakeFiles/SCHED_LIB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_ue.c.o
+[  0%] Building C object CMakeFiles/SCTP_CLIENT.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SCTP/sctp_eNB_task.c.o
+Scanning dependencies of target UTIL
+[  0%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/CLI/cli.c.o
+[  0%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/CLI/cli_cmd.c.o
+[  0%] Linking C static library libUDP.a
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c: In function ‘phy_procedures_eNB_TX’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1176:6: warning: unused variable ‘k’ [-Wunused-variable]
+  int k;
+      ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1115:34: warning: unused variable ‘tt4’ [-Wunused-variable]
+   struct timespec tt1, tt2, tt3, tt4;
+                                  ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1115:29: warning: unused variable ‘tt3’ [-Wunused-variable]
+   struct timespec tt1, tt2, tt3, tt4;
+                             ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1115:24: warning: unused variable ‘tt2’ [-Wunused-variable]
+   struct timespec tt1, tt2, tt3, tt4;
+                        ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1115:19: warning: unused variable ‘tt1’ [-Wunused-variable]
+   struct timespec tt1, tt2, tt3, tt4;
+                   ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1112:16: warning: unused variable ‘dci_alloc’ [-Wunused-variable]
+   DCI_ALLOC_t *dci_alloc=(DCI_ALLOC_t *)NULL;
+                ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1110:12: warning: unused variable ‘ul_frame’ [-Wunused-variable]
+   uint32_t ul_frame;
+            ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1109:11: warning: unused variable ‘ul_subframe’ [-Wunused-variable]
+   uint8_t ul_subframe;
+           ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1108:11: warning: unused variable ‘num_pdcch_symbols’ [-Wunused-variable]
+   uint8_t num_pdcch_symbols=0;
+           ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1107:10: warning: unused variable ‘UE_id’ [-Wunused-variable]
+   int8_t UE_id=0;
+          ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1106:11: warning: unused variable ‘DCI_pdu_tmp’ [-Wunused-variable]
+   DCI_PDU DCI_pdu_tmp;
+           ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1105:12: warning: unused variable ‘DCI_pdu’ [-Wunused-variable]
+   DCI_PDU *DCI_pdu;
+            ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:1104:11: warning: unused variable ‘harq_pid’ [-Wunused-variable]
+   uint8_t harq_pid;
+           ^
+[  0%] Built target UDP
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c: In function ‘phy_procedures_eNB_uespec_RX’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2623:12: warning: unused variable ‘temp_rb’ [-Wunused-variable]
+   uint16_t temp_rb=0;
+            ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2590:24: warning: unused variable ‘tt2’ [-Wunused-variable]
+   struct timespec tt1, tt2; 
+                        ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2590:19: warning: unused variable ‘tt1’ [-Wunused-variable]
+   struct timespec tt1, tt2; 
+                   ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2588:17: warning: unused variable ‘Ns’ [-Wunused-variable]
+   short Qm,flag,Ns ;
+                 ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2588:12: warning: unused variable ‘flag’ [-Wunused-variable]
+   short Qm,flag,Ns ;
+            ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2588:9: warning: unused variable ‘Qm’ [-Wunused-variable]
+   short Qm,flag,Ns ;
+         ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2587:25: warning: unused variable ‘flag_RS’ [-Wunused-variable]
+   short RB[fp->N_RB_UL],flag_RS;
+                         ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2587:9: warning: unused variable ‘RB’ [-Wunused-variable]
+   short RB[fp->N_RB_UL],flag_RS;
+         ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2586:7: warning: unused variable ‘est’ [-Wunused-variable]
+   int est[300];
+       ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2585:7: warning: unused variable ‘total_nb_rb’ [-Wunused-variable]
+   int total_nb_rb = 0 ;
+       ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2580:11: warning: unused variable ‘nPRS’ [-Wunused-variable]
+   uint8_t nPRS;
+           ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_eNb.c:2576:19: warning: unused variable ‘common_vars’ [-Wunused-variable]
+   LTE_eNB_COMMON *common_vars = &eNB->common_vars;
+                   ^
+[  0%] Building C object CMakeFiles/GTPV1U.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/GTPV1-U/nw-gtpv1u/src/NwGtpv1uTunnelEndPoint.c.o
+[  0%] Building C object CMakeFiles/GTPV1U.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/GTPV1-U/nw-gtpv1u/src/NwGtpv1uTrxn.c.o
+[  0%] Building C object CMakeFiles/SCTP_CLIENT.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SCTP/sctp_eNB_itti_messaging.c.o
+Scanning dependencies of target ITTI
+[  1%] Building C object CMakeFiles/ITTI.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/intertask_interface.c.o
+[  1%] Building C object CMakeFiles/GTPV1U.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/GTPV1-U/nw-gtpv1u/src/NwGtpv1uMsg.c.o
+[  1%] Linking C static library libSCTP_CLIENT.a
+[  1%] Built target SCTP_CLIENT
+[  1%] Building C object CMakeFiles/GTPV1U.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/GTPV1-U/nw-gtpv1u/src/NwGtpv1u.c.o
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/CLI/cli_server.c.o
+[  1%] Building C object CMakeFiles/GTPV1U.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/GTPV1-U/gtpv1u_teid_pool.c.o
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/FIFO/pad_list.c.o
+[  1%] Building C object CMakeFiles/ITTI.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/intertask_interface_dump.c.o
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LISTS/list.c.o
+Scanning dependencies of target PHY
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LISTS/list2.c.o
+[  1%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pss.c.o
+Scanning dependencies of target S1AP_ENB
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LOG/log.c.o
+[  1%] Building C object CMakeFiles/SCHED_LIB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_procedures_lte_common.c.o
+[  1%] Building C object CMakeFiles/SCHED_LIB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/phy_mac_stub.c.o
+[  1%] Linking C static library libGTPV1U.a
+[  1%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB.c.o
+[  1%] Built target GTPV1U
+[  1%] Building C object CMakeFiles/ITTI.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/backtrace.c.o
+[  1%] Building C object CMakeFiles/ITTI.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/memory_pools.c.o
+[  1%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/sss.c.o
+[  1%] Building C object CMakeFiles/ITTI.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/signals.c.o
+[  1%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_context_management_procedures.c.o
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LOG/vcd_signal_dumper.c.o
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/MATH/oml.c.o
+[  1%] Building C object CMakeFiles/SCHED_LIB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/pucch_pc.c.o
+[  1%] Building C object CMakeFiles/ITTI.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/timer.c.o
+Scanning dependencies of target S1AP_LIB
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/MEM/mem_block.c.o
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OCG/OCG.c.o
+[  1%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_decoder.c.o
+[  1%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/s1ap_decoder.c.o
+[  1%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pilots.c.o
+[  1%] Linking C static library libITTI.a
+[  1%] Built target ITTI
+[  1%] Building C object CMakeFiles/SCHED_LIB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SCHED/pusch_pc.c.o
+[  1%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_encoder.c.o
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OCG/OCG_create_dir.c.o
+[  1%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pilots_mbsfn.c.o
+[  1%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OCG/OCG_detect_file.c.o
+[  1%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_handlers.c.o
+[  1%] Linking C static library libSCHED_LIB.a
+[  1%] Built target SCHED_LIB
+Scanning dependencies of target SECU_CN
+[  2%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OCG/OCG_generate_report.c.o
+[  2%] Building C object CMakeFiles/SECU_CN.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SECU/kdf.c.o
+[  2%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_coding.c.o
+[  2%] Building C object CMakeFiles/SECU_CN.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SECU/rijndael.c.o
+[  2%] Building C object CMakeFiles/SECU_CN.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SECU/snow3g.c.o
+[  2%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OCG/OCG_parse_filename.c.o
+[  2%] Building C object CMakeFiles/SECU_CN.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SECU/key_nas_deriver.c.o
+[  2%] Building C object CMakeFiles/SECU_CN.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SECU/nas_stream_eea1.c.o
+[  2%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_itti_messaging.c.o
+[  2%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OCG/OCG_parse_XML.c.o
+[  2%] Building C object CMakeFiles/SECU_CN.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SECU/nas_stream_eia1.c.o
+[  2%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OCG/OCG_save_XML.c.o
+[  2%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_management_procedures.c.o
+[  2%] Building C object CMakeFiles/SECU_CN.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SECU/nas_stream_eea2.c.o
+[  2%] Building C object CMakeFiles/SECU_CN.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SECU/nas_stream_eia2.c.o
+[  2%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_modulation.c.o
+[  4%] Linking C static library libSECU_CN.a
+[  4%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/common.c.o
+[  4%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_nas_procedures.c.o
+[  4%] Built target SECU_CN
+Scanning dependencies of target L2
+Scanning dependencies of target LFDS
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_query.c.o
+[  4%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/grid.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_queue.c.o
+[  4%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/job.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_delete.c.o
+[  4%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/openair2_proc.c.o
+[  4%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_queue/lfds611_queue_new.c.o
+[  4%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/mobility_parser.c.o
+[  4%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_nnsf.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_new.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_get_and_put.c.o
+[  4%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/omg.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_query.c.o
+[  4%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_overload.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_ringbuffer/lfds611_ringbuffer_delete.c.o
+[  4%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/rwalk.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_delete.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_new.c.o
+[  4%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp_fifo.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_get_and_set.c.o
+[  4%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_trace.c.o
+[  4%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/rwp.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_slist/lfds611_slist_link.c.o
+[  4%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_demodulation.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_new.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_query.c.o
+[  4%] Building C object CMakeFiles/S1AP_ENB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_eNB_ue_context.c.o
+[  4%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/static.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_push_pop.c.o
+[  4%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/steadystaterwp.c.o
+[  4%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_stack/lfds611_stack_delete.c.o
+[  4%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp_sequence_manager.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_get_and_set.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_pop_push.c.o
+[  5%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp_primitives.c.o
+[  5%] Linking C static library libS1AP_ENB.a
+Scanning dependencies of target RRC_LIB
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_new.c.o
+[  5%] Built target S1AP_ENB
+Scanning dependencies of target SECU_OSA
+[  5%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/trace.c.o
+[  5%] Building C object CMakeFiles/SECU_OSA.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OSA/osa_key_deriver.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_delete.c.o
+[  5%] Building C object CMakeFiles/SECU_OSA.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OSA/osa_rijndael.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_freelist/lfds611_freelist_query.c.o
+[  5%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CA-MIMO-ParametersUL-r10.c.o
+[  5%] Building C object CMakeFiles/SECU_OSA.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OSA/osa_snow3g.c.o
+[  5%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Q-QualMin-r9.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_abstraction_test_helpers.c.o
+[  5%] Building C object CMakeFiles/SECU_OSA.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OSA/osa_stream_eea.c.o
+[  5%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG/trace_hashtable.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_free.c.o
+[  5%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp_util.c.o
+[  5%] Building C object CMakeFiles/SECU_OSA.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OSA/osa_stream_eia.c.o
+[  5%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/s1ap_encoder.c.o
+[  5%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RadioResourceConfigDedicatedSCell-r10.c.o
+[  5%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OPT/probe.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_liblfds/lfds611_liblfds_aligned_malloc.c.o
+[  5%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasIdToAddMod.c.o
+[  5%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityFromEUTRACommand-v960-IEs.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_free.c.o
+[  5%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_llr_computation.c.o
+[  5%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UplinkPowerControlCommon-v1020.c.o
+[  5%] Building C object CMakeFiles/LFDS.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src/lfds611_abstraction/lfds611_abstraction_malloc.c.o
+[  5%] Linking C static library libSECU_OSA.a
+[  5%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OTG/otg_tx.c.o
+[  5%] Built target SECU_OSA
+[  5%] Linking C static library libLFDS.a
+[  5%] Built target LFDS
+[  5%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp_security.c.o
+[  5%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysicalConfigDedicated.c.o
+[  5%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0/pdcp_netlink.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RLF-TimersAndConstants-r9.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CQI-ReportConfig.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReestabUE-Identity.c.o
+[  6%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am.c.o
+[  6%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_init.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformation-r8-IEs.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/T-Reselection.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishment-r8-IEs.c.o
+[  6%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/s1ap_xer_print.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Handover.c.o
+[  6%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OTG/otg.c.o
+[  6%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_timer_poll_retransmit.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/FreqPriorityListUTRA-FDD.c.o
+[  6%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OTG/otg_kpi.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandGERAN.c.o
+[  6%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/power_control.c.o
+[  6%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_timer_reordering.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultUTRA.c.o
+Scanning dependencies of target LIB_NAS_UE
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterFreqBlackCellList.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReject-r8-IEs.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RNReconfigurationComplete-r10.c.o
+[  6%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/nas_itti_messaging.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellIdGERAN.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ProximityIndication-r9-IEs.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBSFN-SubframeConfig.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionSetup.c.o
+[  6%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_timer_status_prohibit.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqListUTRA-TDD.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Hysteresis.c.o
+[  6%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SPS-Config.c.o
+[  8%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NextHopChainingCount.c.o
+[  8%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OTG/otg_models.c.o
+[  8%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/nas_network.c.o
+[  8%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/QuantityConfigCDMA2000.c.o
+[  8%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformation-v8a0-IEs.c.o
+[  8%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellIdListCDMA2000.c.o
+[  8%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/nas_parser.c.o
+[  8%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/LocationInfo-r10.c.o
+[  8%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverPreparationInformation-v920-IEs.c.o
+[  8%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellListCDMA2000-v920.c.o
+[  8%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RACH-ConfigCommon.c.o
+[  8%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/nas_proc.c.o
+[  8%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/nas_user.c.o
+[  8%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RNReconfiguration-r10-IEs.c.o
+[  9%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OTG/otg_form.c.o
+[ 10%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_segment.c.o
+[ 12%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/s1ap_compare.c.o
+[ 12%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/constr_SEQUENCE.c.o
+[ 12%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReceiveStatusofULPDCPSDUs.c.o
+[ 12%] Building C object CMakeFiles/UTIL.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OTG/otg_rx.c.o
+[ 12%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/API/NETWORK/as_message.c.o
+[ 12%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENB-StatusTransfer-TransparentContainer.c.o
+[ 12%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextModificationRequest.c.o
+[ 12%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/API/NETWORK/nas_message.c.o
+[ 12%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/API/NETWORK/network_api.c.o
+[ 12%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cell-Size.c.o
+[ 12%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_segments_holes.c.o
+[ 12%] Linking C static library libUTIL.a
+[ 12%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargetID.c.o
+[ 12%] Built target UTIL
+[ 12%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABFailedToSetupListHOReqAck.c.o
+[ 12%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/API/USER/at_command.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/API/USER/at_error.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CountingRequestInfo-r10.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReportingTriggerMDT.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/TMGI-r9.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/API/USER/at_response.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Routing-ID.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DL-UM-RLC.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/API/USER/user_api.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SoundingRS-UL-ConfigDedicated.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MDT-Activation.c.o
+[ 13%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_in_sdu.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-X2TNLConfigurationInfo.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UE-EUTRA-Capability-v920-IEs.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LocationReportingFailureIndication.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/API/USER/user_indication.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/API/USIM/aka_functions.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/API/USIM/usim_api.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RIMTransfer.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandEUTRA.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AttachAccept.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RRC-Container.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellIdListCDMA2000-v920.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AttachComplete.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasCycleSCell-r10.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SourceeNB-ToTargeteNB-TransparentContainer.c.o
+[ 13%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_receiver.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AttachReject.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AttachRequest.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PriorityLevel.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ARFCN-ValueUTRA.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AuthenticationFailure.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AuthenticationReject.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_SEQUENCE.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/constr_SEQUENCE_OF.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AuthenticationResponse.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AuthenticationRequest.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/CsServiceNotification.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/DetachAccept.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/DetachRequest.c.o
+[ 13%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DownlinkNonUEAssociatedLPPaTransport.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/DownlinkNasTransport.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/EmmInformation.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/emm_msg.c.o
+[ 13%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/EmmStatus.c.o
+[ 13%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/LoggedMeasurementConfiguration-r10-IEs.c.o
+[ 14%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PollByte.c.o
+[ 14%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_retransmit.c.o
+[ 14%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_windows.c.o
+[ 14%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_rx_list.c.o
+[ 14%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UEInformationResponse-v1020-IEs.c.o
+[ 14%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SRS-ConfigAp-r10.c.o
+[ 14%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReconfiguration-r8-IEs.c.o
+[ 16%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/ExtendedServiceRequest.c.o
+[ 16%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RF-Parameters.c.o
+[ 16%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/FilterCoefficient.c.o
+[ 16%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType4.c.o
+[ 16%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/GutiReallocationCommand.c.o
+[ 16%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandInfoEUTRA.c.o
+[ 16%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID-Cancelled-Item.c.o
+[ 16%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityModeFailure-r8-IEs.c.o
+[ 16%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_reassembly.c.o
+[ 16%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/GutiReallocationComplete.c.o
+[ 16%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/IdentityRequest.c.o
+[ 16%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-associatedLogicalS1-ConnectionListRes.c.o
+[ 16%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SoundingRS-UL-ConfigDedicatedAperiodic-r10.c.o
+[ 16%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/IdentityResponse.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_SEQUENCE_OF.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SourceBSS-ToTargetBSS-TransparentContainer.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PCCH-MessageType.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/SecurityModeCommand.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UECapabilityInformation-r8-IEs.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TrafficLoadReductionIndication.c.o
+[ 17%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0/rlc_am_status_report.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellsToAddModUTRA-FDD.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/SecurityModeComplete.c.o
+[ 17%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/TM_v9.3.0/rlc_tm.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OldBSS-ToNewBSS-Information.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBX2ExtTLA.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityModeComplete.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/SecurityModeReject.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENB-ID.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasObjectToAddMod.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GUMMEI.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/ServiceReject.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReportConfigToAddMod.c.o
+[ 17%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Presence.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersGERAN.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PagingUE-Identity.c.o
+[ 17%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/ServiceRequest.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType12-r9.c.o
+[ 17%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PagingRecord.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ProximityIndication-v930-IEs.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-QCI.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionSetup-v8a0-IEs.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/TrackingAreaUpdateAccept.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/TrackingAreaUpdateComplete.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhyLayerParameters.c.o
+[ 18%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/TM_v9.3.0/rlc_tm_init.c.o
+[ 18%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/UM_v9.3.0/rlc_um.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DownlinkS1cdma2000tunneling.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/TrackingAreaUpdateReject.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReconfigurationComplete-r8-IEs.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PathSwitchRequestFailure.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/TrackingAreaUpdateRequest.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DL-CCCH-MessageType.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/UplinkNasTransport.c.o
+[ 18%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/UM_v9.3.0/rlc_um_fsm.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-AreaScopeOfMDT.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentReject-r8-IEs.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UnsuccessfulOutcome.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAIListforWarning.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/ActivateDedicatedEpsBearerContextAccept.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AntennaInfoDedicated-v920.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CriticalityDiagnostics-IE-List.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MME-UE-S1AP-ID.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/ActivateDedicatedEpsBearerContextReject.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OverloadStart.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellsPerBandclassCDMA2000.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SCellIndex-r10.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseNas.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CommonSF-AllocPatternList-r9.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/ActivateDedicatedEpsBearerContextRequest.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABDataForwardingList.c.o
+[ 18%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/UM_v9.3.0/rlc_um_control_primitives.c.o
+[ 18%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/UM_v9.3.0/rlc_um_segment.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CounterCheckResponse-r8-IEs.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellIndex.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-S1SetupFailure.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityModeFailure-v8a0-IEs.c.o
+[ 18%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandParametersDL-r10.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/ActivateDefaultEpsBearerContextAccept.c.o
+[ 18%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/ActivateDefaultEpsBearerContextReject.c.o
+[ 18%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupListHOReq.c.o
+[ 20%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ProcedureCode.c.o
+[ 20%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UEInformationRequest-v1020-IEs.c.o
+[ 20%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GERAN-Cell-ID.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/ActivateDefaultEpsBearerContextRequest.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/BearerResourceAllocationReject.c.o
+[ 21%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/UM_v9.3.0/rlc_um_reassembly.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABDataForwardingItem.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SecurityKey.c.o
+[ 21%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellsPerBandclassListCDMA2000-v920.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000HOStatus.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/BearerResourceAllocationRequest.c.o
+[ 21%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandListUTRA-TDD768.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/BearerResourceModificationReject.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TraceStart.c.o
+[ 21%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandListUTRA-TDD128.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CancelledCellinTAI-Item.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/BearerResourceModificationRequest.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/DeactivateEpsBearerContextAccept.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UplinkS1cdma2000tunneling.c.o
+[ 21%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandListHRPD.c.o
+[ 21%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/UM_v9.3.0/rlc_um_receiver.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NumberOfBroadcasts.c.o
+[ 21%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasObjectCDMA2000.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/DeactivateEpsBearerContextRequest.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellID-Cancelled-Item.c.o
+[ 21%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/EsmInformationRequest.c.o
+[ 21%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SONInformationReply.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellIdRangeUTRA-FDDList-r9.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/VarMeasReportList.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/EsmInformationResponse.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/esm_msg.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LastVisitedEUTRANCellInformation.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/FreqPriorityUTRA-TDD.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Paging-v890-IEs.c.o
+[ 22%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/UM_v9.3.0/rlc_um_dar.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/EsmStatus.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RequestType.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionSetupComplete.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionRequest.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Reset.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CountingRequestList-r10.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecondaryPreRegistrationZoneIdListHRPD.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/ModifyEpsBearerContextAccept.c.o
+[ 22%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/rlc_mac.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/ModifyEpsBearerContextReject.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellGlobalIdGERAN.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInfoListGERAN.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-S1AP-ID-pair.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/ModifyEpsBearerContextRequest.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Threshold-RSRP.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeModifiedItemBearerModReq.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UL-ReferenceSignalsPUSCH.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/PdnConnectivityReject.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LastVisitedCell-Item.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/PdnConnectivityRequest.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MNC.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Time-UE-StayedInCell.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/PdnDisconnectReject.c.o
+[ 22%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UECapabilityInfoIndication.c.o
+[ 22%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBSFN-AreaInfoList-r9.c.o
+[ 22%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG/PdnDisconnectRequest.c.o
+[ 24%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EUTRANRoundTripDelayEstimationInfo.c.o
+[ 24%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellsToAddModCDMA2000.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/AccessPointName.c.o
+[ 24%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/LoggingDuration-r10.c.o
+[ 24%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/TDD-Config.c.o
+[ 24%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSFBParametersRequestCDMA2000.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/AdditionalUpdateResult.c.o
+[ 24%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseCommand.c.o
+[ 24%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/AdditionalUpdateType.c.o
+[ 24%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ExplicitListOfARFCNs.c.o
+[ 24%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/rlc.c.o
+[ 24%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UERadioAccessCapabilityInformation.c.o
+[ 24%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PLMN-IdentityList.c.o
+[ 24%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBname.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/ApnAggregateMaximumBitRate.c.o
+[ 25%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterFreqBandInfo.c.o
+[ 25%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/AuthenticationFailureParameter.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PUSCH-ConfigDedicated-v1020.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultListGERAN.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RACH-ConfigDedicated.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/AuthenticationParameterAutn.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/AuthenticationParameterRand.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityParametersCDMA2000.c.o
+[ 27%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupItemBearerSURes.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellListCDMA2000.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellInfoUTRA-TDD-r9.c.o
+[ 27%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABFailedToSetupItemHOReqAck.c.o
+[ 27%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/xer_encoder.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/AuthenticationResponseParameter.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/CipheringKeySequenceNumber.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UECapabilityEnquiry-v8a0-IEs.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasObjectToAddModList.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/T-PollRetransmit.c.o
+[ 27%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/rlc_rrc.c.o
+[ 27%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RepetitionPeriod.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/Cli.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UEInformationResponse-v930-IEs.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/CsfbResponse.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ULInformationTransfer.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellsPerBandclassCDMA2000-v920.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/DaylightSavingTime.c.o
+[ 27%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/DetachType.c.o
+[ 27%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PrivacyIndicator.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PagingRecordList.c.o
+[ 27%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SCellToReleaseList-r10.c.o
+[ 28%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/rlc_mpls.c.o
+[ 28%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/DrxParameter.c.o
+[ 28%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersUTRA-v920.c.o
+[ 28%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverFromEUTRAPreparationRequest-v1020-IEs.c.o
+[ 28%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEDirectInformationTransfer.c.o
+[ 28%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenLACs.c.o
+[ 28%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/rrc_UE.c.o
+[ 28%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EmergencyNumberList.c.o
+[ 28%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextReleaseCommand.c.o
+[ 29%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_decoding.c.o
+[ 29%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ULHandoverPreparationTransfer.c.o
+[ 29%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UESecurityCapabilities.c.o
+[ 29%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersCDMA2000-1XRTT.c.o
+[ 29%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EmmCause.c.o
+[ 29%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LastVisitedGERANCellInformation.c.o
+[ 29%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EpsAttachResult.c.o
+[ 29%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/per_support.c.o
+[ 29%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EpsAttachType.c.o
+[ 29%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RedirectedCarrierInfo.c.o
+[ 29%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/rrc_eNB.c.o
+[ 29%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasParameters.c.o
+[ 29%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EpsBearerContextStatus.c.o
+[ 29%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EpsBearerIdentity.c.o
+[ 29%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultServFreqList-r10.c.o
+[ 29%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EpsMobileIdentity.c.o
+[ 29%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EpsNetworkFeatureSupport.c.o
+[ 31%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityModeCommand.c.o
+[ 31%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenInterRATs.c.o
+[ 31%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EpsQualityOfService.c.o
+[ 31%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellsPerBandclassListCDMA2000.c.o
+[ 31%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityFromEUTRACommand-v930-IEs.c.o
+[ 31%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EpsUpdateType.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EpsUpdateResult.c.o
+[ 32%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/xer_decoder.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasId.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EsmCause.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EsmInformationTransferFlag.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/EsmMessageContainer.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/xer_encoder.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityModeComplete-r8-IEs.c.o
+[ 32%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ErrorIndication.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReconfigurationComplete.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/GprsTimer.c.o
+[ 32%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dlsch_scrambling.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/VarMeasConfig.c.o
+[ 32%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WarningAreaList.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterFreqNeighCellInfo.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType3.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/GutiType.c.o
+[ 32%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedGUMMEIs.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandCombinationListEUTRA-r10.c.o
+[ 32%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSwitchedDLList.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/per_support.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/IdentityType2.c.o
+[ 32%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Correlation-ID.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandListUTRA-FDD.c.o
+[ 32%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/ImeisvRequest.c.o
+[ 32%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ThresholdGERAN.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SynchronizationStatus.c.o
+[ 33%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/KsiAndSequenceNumber.c.o
+[ 33%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/LcsClientIdentity.c.o
+[ 33%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Key-eNodeB-Star.c.o
+[ 33%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dci_tools.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-HistoryInformation.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MSClassmark2.c.o
+[ 33%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/LcsIndicator.c.o
+[ 33%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Q-OffsetRangeInterRAT.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RelativeMMECapacity.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ConcurrentWarningMessageIndicator.c.o
+[ 33%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/LinkedEpsBearerIdentity.c.o
+[ 33%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UE-CapabilityRAT-Container.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReportAmountMDT.c.o
+[ 33%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/N1PUCCH-AN-CS-r10.c.o
+[ 33%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/LlcServiceAccessPointIdentifier.c.o
+[ 33%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/LocationAreaIdentification.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WarningType.c.o
+[ 33%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSFBParametersResponseCDMA2000-v8a0-IEs.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WriteReplaceWarningResponse.c.o
+[ 33%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/MessageType.c.o
+[ 33%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/xer_decoder.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ProtocolExtensionID.c.o
+[ 33%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GTP-TEID.c.o
+[ 33%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/MobileIdentity.c.o
+[ 33%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/rrc_eNB_S1AP.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterFreqBandList.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-BroadcastCompletedAreaList.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ExtendedRNC-ID.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UECapabilityEnquiry.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SupportedTAs.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DRB-ToReleaseList.c.o
+[ 35%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/MobileStationClassmark2.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NASSecurityParametersfromE-UTRAN.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Criticality.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PreRegistrationInfoHRPD.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReselectionThresholdQ-r9.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/FreqPriorityEUTRA.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID-Broadcast.c.o
+[ 35%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/MobileStationClassmark3.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargetRNC-ToSourceRNC-TransparentContainer.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NonContiguousUL-RA-WithinCC-List-r10.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TypeOfError.c.o
+[ 35%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/MsNetworkCapability.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReconfiguration-v890-IEs.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXSRVCCInfo.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityFromEUTRACommand-r9-IEs.c.o
+[ 35%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/uci_tools.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CQI-ReportPeriodic-r10.c.o
+[ 35%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenTAs.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/TPC-PDCCH-Config.c.o
+[ 35%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/MsNetworkFeatureSupport.c.o
+[ 35%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DL-CCCH-Message.c.o
+[ 36%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/ANY.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/NasKeySetIdentifier.c.o
+[ 37%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandParametersUL-r10.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/NasMessageContainer.c.o
+[ 37%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RSTD-InterFreqInfo-r10.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/NasRequestType.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/NasSecurityAlgorithms.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Threshold-RSRQ.c.o
+[ 37%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/rrc_eNB_UE_context.c.o
+[ 37%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UEInformationRequest-r9-IEs.c.o
+[ 37%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBSFN-SubframeConfigList.c.o
+[ 37%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/rrc_common.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/NetworkName.c.o
+[ 37%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DeltaTxD-OffsetListPUCCH-r10.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TimeToWait.c.o
+[ 37%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersCDMA2000-HRPD.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/Nonce.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABAdmittedList.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SRVCCHOIndication.c.o
+[ 37%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UL-CCCH-MessageType.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Direct-Forwarding-Path-Availability.c.o
+[ 37%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SchedulingInfoList.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/PacketFlowIdentifier.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBX2TLAs.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Global-ENB-ID.c.o
+[ 37%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellsTriggeredList.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/PagingIdentity.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WriteReplaceWarningRequest.c.o
+[ 37%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/per_opentype.c.o
+[ 37%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/PdnAddress.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CountingResponseInfo-r10.c.o
+[ 39%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/L2_interface.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/PdnType.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SpeedStateScaleFactors.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AntennaInfoUL-r10.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-S1SetupResponse.c.o
+[ 39%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/lte_transport_init.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/PlmnList.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-IE-Extensions.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSFBParametersResponseCDMA2000.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentRequest-r8-IEs.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MDTMode.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/ProcedureTransactionIdentity.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IntraFreqBlackCellList.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedPLMNs.c.o
+[ 39%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/main.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishment.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/ProtocolConfigurationOptions.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReportInterval.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedGUMMEIsItem.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LPPa-PDU.c.o
+[ 39%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/ue_procedures.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/ProtocolDiscriminator.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellReselectionPriority.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MeasurementsToActivate.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/PTmsiSignature.c.o
+[ 39%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/ra_procedures.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ARFCN-ValueEUTRA.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cause.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/QualityOfService.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupListCtxtSUReq.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasIdToAddModList.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseListBearerRelComp.c.o
+[ 39%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellID-Cancelled.c.o
+[ 39%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/RadioPriority.c.o
+[ 39%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/C-RNTI.c.o
+[ 40%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID-Broadcast-Item.c.o
+[ 40%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TABasedMDT.c.o
+[ 40%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/SecurityHeaderType.c.o
+[ 40%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargeteNB-ID.c.o
+[ 40%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandUTRA-FDD.c.o
+[ 40%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/l1_helpers.c.o
+[ 40%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBStatusTransfer.c.o
+[ 40%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/ServiceType.c.o
+[ 40%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverPreparationFailure.c.o
+[ 40%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/ShortMac.c.o
+[ 40%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MCC-MNC-Digit.c.o
+[ 40%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupItemCtxtSUReq.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/SsCode.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/SupportedCodecList.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-associatedLogicalS1-ConnectionItem.c.o
+[ 41%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasObjectUTRA.c.o
+[ 41%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/rar_tools.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/TimeZoneAndTime.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SecurityContext.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/TimeZone.c.o
+[ 41%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishment-v8a0-IEs.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MeasurementThresholdA2.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/TmsiStatus.c.o
+[ 41%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/LogMeasInfoList-r10.c.o
+[ 41%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/eNB_scheduler.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/TrackingAreaIdentity.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEPagingID.c.o
+[ 41%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandUTRA-TDD384.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RAC.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/TrackingAreaIdentityList.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/TrafficFlowAggregateDescription.c.o
+[ 41%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandParameters-r10.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/TrafficFlowTemplate.c.o
+[ 41%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/TransactionIdentifier.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-BroadcastCancelledAreaList.c.o
+[ 41%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType1-v890-IEs.c.o
+[ 41%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-S-TMSI.c.o
+[ 41%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/lte_mcs.c.o
+[ 41%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/eNB_scheduler_dlsch.c.o
+[ 41%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/eNB_scheduler_ulsch.c.o
+[ 41%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/eNB_scheduler_mch.c.o
+[ 43%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/FreqsPriorityListGERAN.c.o
+[ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WarningSecurityInfo.c.o
+[ 43%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AllowedMeasBandwidth.c.o
+[ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NumberofBroadcastRequest.c.o
+[ 43%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSFBParametersResponseCDMA2000-r8-IEs.c.o
+[ 43%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c.o
+[ 43%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReportConfigInterRAT.c.o
+[ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CompletedCellinTAI-Item.c.o
+[ 43%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/eNB_scheduler_bch.c.o
+[ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABInformationList.c.o
+[ 43%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/UeRadioCapabilityInformationUpdateNeeded.c.o
+[ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellBasedMDT.c.o
+[ 43%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/UeSecurityCapability.c.o
+[ 43%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RNReconfigurationComplete-r10-IEs.c.o
+[ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SONInformationRequest.c.o
+[ 43%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pbch.c.o
+[ 43%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverPreparationInformation.c.o
+[ 43%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES/VoiceDomainPreferenceAndUeUsageSetting.c.o
+[ 43%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SerialNumber.c.o
+[ 43%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityModeCommand-v8a0-IEs.c.o
+[ 43%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL/device.c.o
+[ 43%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL/memory.c.o
+[ 43%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandClassInfoCDMA2000.c.o
+[ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InterfacesToTrace.c.o
+[ 44%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL/nas_log.c.o
+[ 44%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL/nas_timer.c.o
+[ 44%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DRB-Identity.c.o
+[ 44%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL/socket.c.o
+[ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellID-Broadcast-Item.c.o
+[ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000HORequiredIndication.c.o
+[ 44%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PCCH-Message.c.o
+[ 44%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityFromEUTRACommand-r8-IEs.c.o
+[ 44%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL/stty.c.o
+[ 44%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionRelease-v920-IEs.c.o
+[ 44%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityModeFailure.c.o
+[ 44%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/eNB_scheduler_primitives.c.o
+[ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Pre-emptionCapability.c.o
+[ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBConfigurationUpdateFailure.c.o
+[ 44%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL/TLVEncoder.c.o
+[ 44%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType7.c.o
+[ 44%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierBandwidthEUTRA.c.o
+[ 44%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupListBearerSURes.c.o
+[ 45%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL/TLVDecoder.c.o
+[ 45%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PMCH-Info-r9.c.o
+[ 45%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DownlinkNASTransport.c.o
+[ 45%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/eNB_scheduler_RA.c.o
+[ 45%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBMSCountingResponse-r10.c.o
+[ 45%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL/OctetString.c.o
+[ 45%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RAT-Type.c.o
+[ 45%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CriticalityDiagnostics.c.o
+[ 45%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EUTRAN-CGI.c.o
+[ 45%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/dci.c.o
+[ 45%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SourceeNB-ID.c.o
+[ 45%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/Attach.c.o
+[ 45%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandclassCDMA2000.c.o
+[ 45%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000SectorID.c.o
+[ 45%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/LoggedMeasurementConfiguration-r10.c.o
+[ 45%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/phich.c.o
+[ 45%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellInfoListUTRA-FDD-r9.c.o
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/eNB_scheduler_primitives.c: In function ‘dump_CCE_table’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/eNB_scheduler_primitives.c:1009:14: warning: format ‘%d’ expects a matching ‘int’ argument [-Wformat=]
+       printf("\n CCE %d: ");
+              ^
+[ 47%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RAND-CDMA2000.c.o
+[ 47%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Target-ToSource-TransparentContainer.c.o
+[ 47%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AdditionalSI-Info-r9.c.o
+[ 47%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-BitRate.c.o
+[ 47%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellIdRange.c.o
+[ 47%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AreaConfiguration-r10.c.o
+[ 47%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/Authentication.c.o
+[ 47%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CQI-ReportConfigSCell-r10.c.o
+[ 47%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultList2GERAN-r10.c.o
+[ 47%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PrivateIE-ID.c.o
+[ 47%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverRequestAcknowledge.c.o
+[ 47%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pcfich.c.o
+[ 47%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSI-RS-Config-r10.c.o
+[ 47%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEname.c.o
+[ 47%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/Detach.c.o
+[ 48%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/pre_processor.c.o
+[ 48%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/QuantityConfigUTRA-v1020.c.o
+[ 48%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitialUEMessage.c.o
+[ 48%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/MAC/config.c.o
+[ 48%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IntraFreqNeighCellInfo.c.o
+[ 48%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-IMSI.c.o
+[ 48%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/emm_main.c.o
+[ 48%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SIB-MappingInfo.c.o
+[ 48%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqCDMA2000.c.o
+[ 48%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CGI.c.o
+[ 48%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PHICH-Config.c.o
+[ 48%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABInformationListItem.c.o
+[ 48%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CounterCheck-v8a0-IEs.c.o
+[ 48%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellTrafficTrace.c.o
+[ 48%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReportConfigEUTRA.c.o
+[ 48%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/per_opentype.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MSClassmark3.c.o
+[ 50%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/EmmStatusHdl.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pucch.c.o
+[ 50%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/Identification.c.o
+[ 50%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/IdleMode.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EventType.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DownlinkUEAssociatedLPPaTransport.c.o
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/IdleMode.c: In function ‘emm_proc_plmn_selection_end’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/IdleMode.c:908:33: warning: logical not is only applied to the left hand side of comparison [-Wlogical-not-parentheses]
+     if (!(_emm_plmn_list.fplmn) < 0) { // FIXME this comparison makes no sense (bool < 0)
+                                 ^
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RIMInformation.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-COUNTvalue.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-UTRAN-Trace-ID.c.o
+[ 50%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SN-FieldLength.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-S1AP-IDs.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SuccessfulOutcome.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/NativeInteger.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAC.c.o
+[ 50%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BCCH-Config.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSG-Id.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ThresholdEventA2.c.o
+[ 50%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DRB-ToAddMod.c.o
+[ 50%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/LowerLayer.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EPLMNs.c.o
+[ 50%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/ENB_APP/enb_app.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI-Cancelled.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverType.c.o
+[ 50%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MCC.c.o
+[ 50%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/prach.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellType.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/OCTET_STRING.c.o
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pucch.c: In function ‘generate_pucch2x’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pucch.c:564:13: warning: ‘nprime’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         ((12*(nprime+1)) % 13)-1 :
+             ^
+[ 50%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PMCH-InfoList-r9.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupItemBearerSUReq.c.o
+[ 50%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverCommand.c.o
+[ 50%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SecurityModeControl.c.o
+[ 51%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandUTRA-TDD768.c.o
+[ 51%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellAccessMode.c.o
+[ 52%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABModifyItemBearerModRes.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasurementReport-r8-IEs.c.o
+[ 52%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/ServiceRequestHdl.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResults.c.o
+[ 52%] Building C object CMakeFiles/L2.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/ENB_APP/enb_config.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RSTD-InterFreqInfoList-r10.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ULHandoverPreparationTransfer-r8-IEs.c.o
+[ 52%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/TrackingAreaUpdate.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DL-AM-RLC.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverFromEUTRAPreparationRequest-r8-IEs.c.o
+[ 52%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/emm_as.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterFreqRSTDMeasurementIndication-r10-IEs.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CQI-ReportPeriodic.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersGERAN-v920.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/FreqPriorityListUTRA-TDD.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UE-CapabilityRAT-ContainerList.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MCCH-Message.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CounterCheckResponse.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/QuantityConfig.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RLF-Report-r9.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSFB-RegistrationParam1XRTT.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PMCH-Config-r9.c.o
+[ 52%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmDeregisteredAttachNeeded.c.o
+[ 52%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmDeregisteredAttemptingToAttach.c.o
+[ 52%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmDeregistered.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqsInfoGERAN.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqsGERAN.c.o
+[ 52%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmDeregisteredInitiated.c.o
+[ 52%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmDeregisteredLimitedService.c.o
+[ 52%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-S1SetupRequest.c.o
+[ 52%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmDeregisteredNoCellAvailable.c.o
+[ 52%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pmch.c.o
+[ 52%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqsInfoListGERAN.c.o
+[ 54%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UECapabilityEnquiry-r8-IEs.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmDeregisteredNoImsi.c.o
+[ 55%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI-Cancelled-Item.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmDeregisteredNormalService.c.o
+[ 55%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RN-SubframeConfig-r10.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmDeregisteredPlmnSearch.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/emm_esm.c.o
+[ 55%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABModifyResponse.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/emm_fsm.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmNull.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/emm_recv.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/emm_reg.c.o
+[ 55%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ProtocolIE-ID.c.o
+[ 55%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OverloadAction.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmRegisteredAttemptingToUpdate.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmRegistered.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmRegisteredImsiDetachInitiated.c.o
+[ 55%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargetBSS-ToSourceBSS-TransparentContainer.c.o
+[ 55%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_SET_OF.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmRegisteredInitiated.c.o
+[ 55%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReportConfigToAddModList.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmRegisteredLimitedService.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmRegisteredNoCellAvailable.c.o
+[ 55%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType1-v920-IEs.c.o
+[ 55%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverFromEUTRAPreparationRequest-v920-IEs.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmRegisteredNormalService.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmRegisteredPlmnSearch.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmRegisteredUpdateNeeded.c.o
+[ 55%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CandidateCellInfo-r10.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/emm_sap.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/emm_send.c.o
+[ 55%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReestablishmentInfo.c.o
+[ 55%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionSetup-r8-IEs.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmServiceRequestInitiated.c.o
+[ 55%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UL-AM-RLC.c.o
+[ 55%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP/EmmTrackingAreaUpdatingInitiated.c.o
+[ 55%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentReject-v8a0-IEs.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/DedicatedEpsBearerContextActivation.c.o
+[ 56%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/pch.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterFreqRSTDMeasurementIndication-r10.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/DefaultEpsBearerContextActivation.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionRelease.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasIdToRemoveList.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/EpsBearerContextDeactivation.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SPS-ConfigDL.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PDCP-Config.c.o
+[ 56%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CancelledCellinEAI.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/esm_ebr.c.o
+[ 56%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RAB-ID.c.o
+[ 56%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SupportedTAs-Item.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/esm_ebr_context.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SchedulingRequestConfig-v1020.c.o
+[ 56%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAIItem.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/esm_ip.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/esm_main.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BlackCellsToAddModList.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersUTRA-FDD.c.o
+[ 56%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/group_hopping.c.o
+[ 56%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitialContextSetupFailure.c.o
+[ 56%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/esm_pt.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MIMO-CapabilityDL-r10.c.o
+[ 56%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityFromEUTRACommand.c.o
+[ 56%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-KillResponse.c.o
+[ 58%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DRB-ToAddModList.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/EsmStatusHdl.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/PdnConnectivity.c.o
+[ 58%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandClassPriority1XRTT.c.o
+[ 58%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RRC-Establishment-Cause.c.o
+[ 58%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformation.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/PdnDisconnect.c.o
+[ 58%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasurementReport.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/SAP/esm_recv.c.o
+[ 58%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSFBParametersRequestCDMA2000-r8-IEs.c.o
+[ 58%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SONConfigurationTransfer.c.o
+[ 58%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSwitchedULItem.c.o
+[ 58%] Linking C static library libL2.a
+[ 58%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RSRP-Range.c.o
+[ 58%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/BIT_STRING.c.o
+[ 58%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CNDomain.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/SAP/esm_send.c.o
+[ 58%] Built target L2
+[ 58%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/srs_modulation.c.o
+[ 58%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/drs_modulation.c.o
+[ 58%] Building C object CMakeFiles/LIB_NAS_UE.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/SAP/esm_sap.c.o
+[ 58%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellsToAddModList.c.o
+[ 58%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEConfigurationTransfer.c.o
+[ 58%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LAI.c.o
+[ 58%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UplinkPowerControlDedicatedSCell-r10.c.o
+[ 58%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DRX-Config.c.o
+[ 59%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Bearers-SubjectToStatusTransfer-List.c.o
+[ 59%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PS-ServiceNotAvailable.c.o
+[ 59%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EncryptionAlgorithms.c.o
+[ 59%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenLAs-Item.c.o
+[ 59%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/ber_tlv_tag.c.o
+[ 59%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandUTRA-TDD128.c.o
+[ 59%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/converter-sample.c.o
+[ 59%] Linking C static library libLIB_NAS_UE.a
+[ 59%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSG-ProximityIndicationParameters-r9.c.o
+[ 59%] Built target LIB_NAS_UE
+[ 59%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UE-EUTRA-Capability.c.o
+[ 59%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MessageIdentifier.c.o
+[ 59%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SCellToAddModList-r10.c.o
+[ 59%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_modulation.c.o
+[ 59%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_demodulation.c.o
+[ 59%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UL-DCCH-MessageType.c.o
+[ 59%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_coding.c.o
+[ 59%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c.o
+[ 60%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/rar_tools.c.o
+[ 60%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXMEID.c.o
+[ 60%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultEUTRA.c.o
+[ 60%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BCCH-DL-SCH-Message.c.o
+[ 60%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DLInformationTransfer.c.o
+[ 60%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PLMNidentity.c.o
+[ 60%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterFreqCarrierFreqList.c.o
+[ 60%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResult2EUTRA-r9.c.o
+[ 60%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IdleModeMobilityControlInfo.c.o
+[ 60%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhyLayerParameters-v1020.c.o
+[ 60%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEAggregateMaximumBitrate.c.o
+[ 60%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Paging.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RNReconfiguration-r10.c.o
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c: In function ‘ulsch_decoding_data’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c:684:16: warning: unused variable ‘E’ [-Wunused-variable]
+   unsigned int E;
+                ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c:683:7: warning: unused variable ‘G’ [-Wunused-variable]
+   int G = ulsch_harq->nb_rb * (12 * Q_m) * ulsch_harq->Nsymb_pusch;
+       ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c:657:11: warning: unused variable ‘dummy_w’ [-Wunused-variable]
+   int16_t dummy_w[MAX_NUM_ULSCH_SEGMENTS][3*(6144+64)];
+           ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c:653:18: warning: unused variable ‘r_offset’ [-Wunused-variable]
+   unsigned int r,r_offset=0,Kr,Kr_bytes,iind;
+                  ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c: In function ‘ulsch_decoding’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c:1740:62: warning: "/*" within comment [-Wcomment]
+ /*-----------------------turbo rate matching & deinterleaving/*-----------------------*/
+                                                              ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c:1816:67: warning: "/*" within comment [-Wcomment]
+ /*-----------------------Over turbo rate matching & deinterleaving/*-----------------------*/
+                                                                   ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/ulsch_decoding.c:980:16: warning: unused variable ‘ret’ [-Wunused-variable]
+   unsigned int ret=0;
+                ^
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NAS-PDU.c.o
+[ 62%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/print_stats.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CDMA2000-Type.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DL-DCCH-Message.c.o
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedMMECs.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ServCellIndex-r10.c.o
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellIdListforMDT.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReportConfigId.c.o
+[ 62%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/initial_sync.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasObjectEUTRA.c.o
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupRequest.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AdditionalReestabInfo.c.o
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SourceRNC-ToTargetRNC-TransparentContainer.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/E-CSFB-r9.c.o
+[ 62%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/if4_tools.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasConfig.c.o
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PrivateMessage.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentComplete-v8a0-IEs.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InitialUE-Identity.c.o
+[ 62%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_TRANSPORT/if5_tools.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PresenceAntennaPort1.c.o
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseIndication.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/TimeToTrigger.c.o
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverRequest.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellGlobalIdList-r10.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentReject.c.o
+[ 62%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSG-IdList.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellInfoUTRA-FDD-r9.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SoundingRS-UL-ConfigCommon.c.o
+[ 62%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NativeInteger.c.o
+[ 62%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/MODULATION/ofdm_mod.c.o
+[ 63%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MME-Group-ID.c.o
+[ 63%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PRACH-ConfigInfo.c.o
+[ 63%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CountingResponseList-r10.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AC-BarringConfig1XRTT-r9.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-IE.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LastVisitedUTRANCellInformation.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SubscriberProfileIDforRFP.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LAC.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBX2ExtTLAs.c.o
+[ 64%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/MODULATION/slot_fep.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PDCP-SN.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000PDU.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterRAT-BandInfo.c.o
+[ 64%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/MODULATION/slot_fep_mbsfn.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellID-Broadcast.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LoggingInterval.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PRACH-ConfigSCell-r10.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasurementReport-v8a0-IEs.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/OCTET_STRING.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/VarLogMeasConfig-r10.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType8.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReestablishmentCause.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBDirectInformationTransfer.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UE-associatedLogicalS1-ConnectionListResAck.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextModificationResponse.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextReleaseComplete.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NASSecurityParameterstoE-UTRAN.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellCDMA2000-v920.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/S-TMSI.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PagingPriority.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-BPLMNs.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CQI-ReportModeAperiodic.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GBR-QosInformation.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityModeCommand-r8-IEs.c.o
+[ 64%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/MODULATION/slot_fep_ul.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-WarningMessageContents.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupItemHOReq.c.o
+[ 64%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/MODULATION/ul_7_5_kHz.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReportProximityConfig-r9.c.o
+[ 64%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PathSwitchRequest.c.o
+[ 64%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PLMN-IdentityList2.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ServedGroupIDs.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-IntegrityProtectionAlgorithms.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBConfigurationTransfer.c.o
+[ 66%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AdditionalReestabInfoList.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEConfigurationUpdateFailure.c.o
+[ 66%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandCombination-r10.c.o
+[ 66%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandClassPriorityList1XRTT.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RelayNode-Indicator.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSwitchedULList.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXPilot.c.o
+[ 66%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReject.c.o
+[ 66%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PLMN-Identity.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GUMMEIList.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverCancelAcknowledge.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ECGIList.c.o
+[ 66%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CounterCheck.c.o
+[ 66%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Paging.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/xer_support.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABItem.c.o
+[ 66%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSwitchedDLItem.c.o
+[ 67%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionRelease-v1020-IEs.c.o
+[ 67%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/freq_equalization.c.o
+[ 67%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionRequest-r8-IEs.c.o
+[ 67%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSGMembershipStatus.c.o
+[ 67%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_sync_time.c.o
+[ 67%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_sync_timefreq.c.o
+[ 67%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhyLayerParameters-v920.c.o
+[ 67%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-AllocationAndRetentionPriority.c.o
+[ 67%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/constr_SET_OF.c.o
+[ 67%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CancelledCellinEAI-Item.c.o
+[ 67%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/INTEGER.c.o
+[ 67%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SchedulingInfo.c.o
+[ 67%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Pre-emptionVulnerability.c.o
+[ 67%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_adjust_sync.c.o
+[ 67%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_dl_channel_estimation.c.o
+[ 67%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/NativeEnumerated.c.o
+[ 67%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/QuantityConfigUTRA.c.o
+[ 67%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaIDList.c.o
+[ 67%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqListUTRA-TDD-r10.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MDT-Configuration.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionRelease-r8-IEs.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitialContextSetupResponse.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellChangeOrder.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellIdRangeUTRA-FDD-r9.c.o
+[ 68%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_dl_mbsfn_channel_estimation.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_TYPE.c.o
+[ 68%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_ul_channel_estimation.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID.c.o
+[ 68%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_est_freq_offset.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PDCP-Parameters.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constr_CHOICE.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABModifyRequest.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-M-TMSI.c.o
+[ 68%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_ue_measurements.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CancelledCellinTAI.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersUTRA-TDD128.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/per_decoder.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandClassPriorityListHRPD.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitiatingMessage.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqUTRA-FDD.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SPS-ConfigUL.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/TimeAlignmentTimer.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UERadioAccessCapabilityInformation-r8-IEs.c.o
+[ 68%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/lte_eNB_measurements.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BIT_STRING.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/VarRLF-Report-r10.c.o
+[ 68%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityFromEUTRACommand-v8a0-IEs.c.o
+[ 68%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupResponse.c.o
+[ 70%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSFB-RegistrationParam1XRTT-v920.c.o
+[ 70%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UplinkPowerControlCommonSCell-r10.c.o
+[ 70%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CriticalityDiagnostics-IE-Item.c.o
+[ 70%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverCommand-r8-IEs.c.o
+[ 70%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UplinkNASTransport.c.o
+[ 70%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RIMRoutingAddress.c.o
+[ 70%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_ESTIMATION/adjust_gain.c.o
+[ 71%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_dl_cell_spec.c.o
+[ 71%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseRadioNetwork.c.o
+[ 71%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultListUTRA.c.o
+[ 71%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeModifiedListBearerModReq.c.o
+[ 71%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LocationReport.c.o
+[ 71%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandListEUTRA.c.o
+[ 71%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverCancel.c.o
+[ 71%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/asn_SEQUENCE_OF.c.o
+[ 71%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_dl_uespec.c.o
+[ 71%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReportIntervalMDT.c.o
+[ 71%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SIB-Type.c.o
+[ 71%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Bearers-SubjectToStatusTransfer-Item.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverFailure.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_gold.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_gold_mbsfn.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TraceActivation.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Inter-SystemInformationTransferType.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultListCDMA2000.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000RATType.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABModifyListBearerModRes.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_dl_mbsfn.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UEInformationRequest-r9.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AdditionalSpectrumEmission.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEConfigurationUpdateAcknowledge.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType2.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType9.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABList.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ReportArea.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/LTE_REFSIG/lte_ul_ref.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandList1XRTT.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UL-CyclicPrefixLength.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DataCodingScheme.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ber_tlv_tag.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/lte_segmentation.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEIdentityIndexValue.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/ccoding_byte.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/converter-sample.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/ber_decoder.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType6.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/ccoding_byte_lte.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CI.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ThresholdUTRA.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CompletedCellinEAI.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PeriodicReportingMDT.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AS-Config.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PagingDRX.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-StratumLevel.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/3gpplte_sse.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PUSCH-ConfigDedicatedSCell-r10.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasGapConfig.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/crc_byte.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/constraints.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Source-ToTarget-TransparentContainer.c.o
+[ 72%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellSelectionInfo-v920.c.o
+[ 72%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/3gpplte_turbo_decoder_sse_8bit.c.o
+[ 72%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ResetType.c.o
+[ 74%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/TraceReference-r10.c.o
+[ 74%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultForECID-r9.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI-Broadcast-Item.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Data-Forwarding-Not-Possible.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UEInformationResponse-r9.c.o
+[ 75%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/3gpplte_turbo_decoder_sse_16bit.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ImmediateMDT.c.o
+[ 75%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/3gpplte_turbo_decoder_avx2_16bit.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UplinkPowerControlCommon.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/der_encoder.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEConfigurationUpdate.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI-Broadcast.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellGlobalIdUTRA.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/ber_tlv_length.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupListCtxtSURes.c.o
+[ 75%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/lte_rate_matching.c.o
+[ 75%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/rate_matching.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSFBParametersRequestCDMA2000-v8a0-IEs.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TriggeringMessage.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MasterInformationBlock.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UERadioCapability.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SRVCCOperationPossible.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UplinkNonUEAssociatedLPPaTransport.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UL-DCCH-Message.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABToBeSetupListBearerSUReq.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenTACs.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ThresholdCDMA2000.c.o
+[ 75%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/viterbi.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MME-Code.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenTAs-Item.c.o
+[ 75%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/CODING/viterbi_lte.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DRB-CountInfoList.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TransportLayerAddress.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ManagementBasedMDTAllowed.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PDSCH-ConfigDedicated.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBConfigurationUpdate.c.o
+[ 75%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/INIT/lte_init.c.o
+[ 75%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/INIT/lte_parms.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverNotify.c.o
+[ 75%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellIdentity.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OverloadResponse.c.o
+[ 75%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextModificationFailure.c.o
+[ 77%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/OBJECT_IDENTIFIER.c.o
+[ 78%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/INIT/lte_param_init.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMERelaySupportIndicator.c.o
+[ 78%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSG-AllowedReportingCells-r9.c.o
+[ 78%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CounterCheckResponse-v8a0-IEs.c.o
+[ 78%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandClassListCDMA2000.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseTransport.c.o
+[ 78%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellsToAddMod.c.o
+[ 78%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/FreqsPriorityGERAN.c.o
+[ 78%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PLMN-IdentityInfo.c.o
+[ 78%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/file_output.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAListforMDT.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-NASNonDeliveryIndication.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TraceDepth.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UplinkUEAssociatedLPPaTransport.c.o
+[ 78%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellSI-AcquisitionParameters-r9.c.o
+[ 78%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityConfigSMC.c.o
+[ 78%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/lte_dfts.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/PrintableString.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-RNC-ID.c.o
+[ 78%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1AP-PDU.c.o
+[ 79%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasParameters-v1020.c.o
+[ 79%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/log2_approx.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HFN.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LoggedMDT.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverRequired.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ForbiddenLAs.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargetRNC-ID.c.o
+[ 79%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionSetupComplete-v8a0-IEs.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSG-IdList-Item.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-GWContextReleaseIndication.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TargeteNB-ToSourceeNB-TransparentContainer.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CSFallbackIndicator.c.o
+[ 79%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABSetupItemCtxtSURes.c.o
+[ 79%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DeltaFList-PUCCH.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-L3-Information.c.o
+[ 81%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/cmult_sv.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-SONInformation.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-UEContextReleaseRequest.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-HandoverRestrictionList.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/asn_codecs_prim.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABLevelQoSParameters.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBMSCountingResponse-r10-IEs.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBConfigurationUpdateAcknowledge.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAI.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqListUTRA-FDD.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LoggingDuration.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PUSCH-ConfigDedicated.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentComplete-v1020-IEs.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ExtendedRepetitionPeriod.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ThresholdEUTRA.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/FreqPriorityUTRA-FDD.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PDSCH-ConfigCommon.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-MMEStatusTransfer.c.o
+[ 81%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/cmult_vv.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CQI-ReportConfig-r10.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DedicatedInfoNAS.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DL-Forwarding.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityConfigHO.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentRequest.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-InitialContextSetupRequest.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellInfoListGERAN-r9.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultList2CDMA2000-r9.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseMisc.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandClassPriorityHRPD.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionSetupComplete-r8-IEs.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CompletedCellinTAI.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellInfoListUTRA-TDD-r9.c.o
+[ 81%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/cdot_prod.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RF-Parameters-v1020.c.o
+[ 81%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IMSI.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXRAND.c.o
+[ 81%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/per_encoder.c.o
+[ 82%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/xer_support.c.o
+[ 82%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/signal_energy.c.o
+[ 82%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandCombinationParameters-r10.c.o
+[ 82%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/BOOLEAN.c.o
+[ 82%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseResponse.c.o
+[ 82%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ARFCN-ValueGERAN.c.o
+[ 82%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/asn_SET_OF.c.o
+[ 82%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-Cdma2000OneXMSI.c.o
+[ 82%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/dB_routines.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABReleaseItemBearerRelComp.c.o
+[ 83%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBMS-NotificationConfig-r9.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TAIList.c.o
+[ 83%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasSubframePatternConfigNeigh-r10.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-KillRequest.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-E-RABAdmittedItem.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CellIdentity.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENB-UE-S1AP-ID.c.o
+[ 83%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemTimeInfoCDMA2000.c.o
+[ 83%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/LogMeasInfo-r10.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TBCD-STRING.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-EmergencyAreaID-Cancelled.c.o
+[ 83%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MAC-MainConfig.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TimeSynchronizationInfo.c.o
+[ 83%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BCCH-BCH-MessageType.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/NULL.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-PathSwitchRequestAcknowledge.c.o
+[ 83%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/sqrt.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-DeactivateTrace.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CauseProtocol.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-LocationReportingControl.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ResetAcknowledge.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ResetAll.c.o
+[ 83%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/INTEGER.c.o
+[ 83%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/time_meas.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-OverloadStop.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-TraceFailureIndication.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-CompletedCellinEAI-Item.c.o
+[ 83%] Building C object CMakeFiles/S1AP_LIB.dir/CMakeFiles/R10.5/S1ap-ENBX2GTPTLAs.c.o
+[ 83%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DRB-CountInfo.c.o
+[ 85%] Building C object CMakeFiles/S1AP_LIB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP/s1ap_common.c.o
+[ 85%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellInfoUTRA-TDD-r10.c.o
+[ 85%] Building C object CMakeFiles/PHY.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/lut.c.o
+[ 85%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverFromEUTRAPreparationRequest-v890-IEs.c.o
+[ 85%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultList2UTRA-r9.c.o
+[ 85%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellGlobalIdCDMA2000.c.o
+[ 85%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasObjectToRemoveList.c.o
+[ 85%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandListGERAN.c.o
+[ 85%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NativeEnumerated.c.o
+[ 85%] Linking C static library libS1AP_LIB.a
+[ 85%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionRelease-v890-IEs.c.o
+[ 85%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellsToAddModListCDMA2000.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityAlgorithmConfig.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellIndexList.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RadioResourceConfigCommonSIB.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RSRQ-Range.c.o
+[ 86%] Built target S1AP_LIB
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Q-RxLevMin.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SchedulingRequestConfig.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DLInformationTransfer-v8a0-IEs.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/OtherConfig-r9.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PreRegistrationZoneIdHRPD.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultListEUTRA.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBSFN-AreaInfo-r9.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/constr_TYPE.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandListEUTRA.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/constr_CHOICE.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UE-EUTRA-Capability-v1020-IEs.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DedicatedInfoCDMA2000.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AntennaInfoDedicated.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionSetupComplete-v1020-IEs.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SRB-ToAddModList.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/per_decoder.c.o
+[ 86%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SupportedBandListUTRA-TDD384.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UE-CapabilityRequest.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/TrackingAreaCode.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MIMO-CapabilityUL-r10.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CrossCarrierSchedulingConfig-r10.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UECapabilityInformation.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType1.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellInfoListUTRA-TDD-r10.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MMEC.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/P-Max.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/TrackingAreaCodeList-r10.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasSubframeCellList-r10.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/VarLogMeasReport-r10.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/asn_SEQUENCE_OF.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellsToAddModListUTRA-TDD.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellsToAddModListUTRA-FDD.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReject-v1020-IEs.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType10.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentComplete-v920-IEs.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersCDMA2000-1XRTT-v920.c.o
+[ 87%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UE-TimersAndConstants.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PUCCH-ConfigDedicated-v1020.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultServFreq-r10.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType13-r9.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType11.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterRAT-BandList.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReselectionThreshold.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/VarMeasReport.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReject-v8a0-IEs.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RLC-Config.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBSFNAreaConfiguration-r9.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellConfig.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRM-Config.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ber_decoder.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/N1PUCCH-AN-PersistentList.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IMSI-Digit.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReportConfigToRemoveList.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterFreqNeighCellList.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersUTRA-TDD384.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasSubframePatternPCell-r10.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityControlInfo.c.o
+[ 89%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellGlobalIdEUTRA.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CSG-Identity.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AccessStratumRelease.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AntennaInfoDedicated-r10.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReconfiguration-v920-IEs.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DLInformationTransfer-r8-IEs.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/constraints.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersCDMA2000-1XRTT-v1020.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellId.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverFromEUTRAPreparationRequest.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NeighCellCDMA2000.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DL-DCCH-MessageType.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SCellToAddMod-r10.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/der_encoder.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PCCH-Config.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ber_tlv_length.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PUSCH-ConfigCommon.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReconfigurationComplete-v8a0-IEs.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverCommand.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BCCH-DL-SCH-MessageType.c.o
+[ 90%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResult2CDMA2000-r9.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CQI-ReportConfig-v920.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellReselectionParametersCDMA2000-v920.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DRB-CountMSB-InfoList.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PRACH-Config.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReconfigurationComplete-v1020-IEs.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/LoggingInterval-r10.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/QuantityConfigGERAN.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellReselectionParametersCDMA2000.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentComplete-r8-IEs.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellIdUTRA-FDD.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasSubframePattern-r10.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReconfiguration.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/DRB-CountMSB-Info.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BCCH-BCH-Message.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ReleaseCause.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SON-Parameters-r9.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Q-OffsetRange.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResult2UTRA-r9.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBMSCountingRequest-r10.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersUTRA-TDD768.c.o
+[ 91%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/HandoverPreparationInformation-r8-IEs.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ShortMAC-I.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/VarShortMAC-Input.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PUCCH-ConfigCommon.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SRB-ToAddMod.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysicalConfigDedicatedSCell-r10.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PRACH-ConfigSIB.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityFromEUTRACommand-v8d0-IEs.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BlackCellsToAddMod.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReestablishmentComplete.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/InterFreqCarrierFreqInfo.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PUCCH-ConfigDedicated.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/Paging-v920-IEs.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasObjectGERAN.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IntraFreqNeighCellList.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/T-StatusProhibit.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CandidateCellInfoList-r10.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ULInformationTransfer-r8-IEs.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/T-Reordering.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBMS-SessionInfo-r9.c.o
+[ 93%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/asn_codecs_prim.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SoundingRS-UL-ConfigDedicated-v1020.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CQI-ReportAperiodic-r10.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PollPDU.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ULHandoverPreparationTransfer-v8a0-IEs.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RadioResourceConfigDedicated.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UL-CCCH-Message.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UECapabilityInformation-v8a0-IEs.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NonContiguousUL-RA-WithinCC-r10.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MCCH-MessageType.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellIdCDMA2000.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRC-TransactionIdentifier.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/per_encoder.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqUTRA-TDD.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasObjectId.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UE-BasedNetwPerfMeasParameters-r10.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/TPC-Index.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BOOLEAN.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CA-BandwidthClass-r10.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/asn_SET_OF.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellInfoGERAN-r9.c.o
+[ 94%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UplinkPowerControlDedicated.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UplinkPowerControlDedicated-v1020.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultList2EUTRA-r9.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/LogicalChannelConfig.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SI-OrPSI-GERAN.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/IRAT-ParametersUTRA-TDD-v1020.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UE-EUTRA-Capability-v940-IEs.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AntennaInfoCommon.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CounterCheck-r8-IEs.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/LogMeasReport-r10.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultsCDMA2000.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/PhysCellIdUTRA-TDD.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultCDMA2000.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RadioResourceConfigCommonSCell-r10.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ULInformationTransfer-v8a0-IEs.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ARFCN-ValueCDMA2000.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RRCConnectionReconfiguration-v1020-IEs.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UL-UM-RLC.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RN-SystemInfo-r10.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CellsToAddModUTRA-TDD.c.o
+[ 95%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MobilityStateParameters.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBSFNAreaConfiguration-v930-IEs.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AS-Context.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MBMS-SessionInfoList-r9.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UEInformationResponse-r9-IEs.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/MeasResultGERAN.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/NULL.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/EstablishmentCause.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqEUTRA.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SecurityModeComplete-v8a0-IEs.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AC-BarringConfig.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/AbsoluteTimeInfo-r10.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/BandIndicatorGERAN.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/ProximityIndication-r9.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RadioResourceConfigCommon.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/QuantityConfigEUTRA.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/UEInformationRequest-v930-IEs.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CA-MIMO-ParametersDL-r10.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/RegisteredMME.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/CarrierFreqGERAN.c.o
+[ 97%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/SystemInformationBlockType5.c.o
+[ 98%] Building C object CMakeFiles/RRC_LIB.dir/CMakeFiles/Rel10/FreqPriorityListEUTRA.c.o
+[ 98%] Building C object CMakeFiles/RRC_LIB.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/MESSAGES/asn1_msg.c.o
+[ 98%] Linking C static library libRRC_LIB.a
+[ 98%] Built target RRC_LIB
+[ 98%] Linking C static library libPHY.a
+[ 98%] Built target PHY
+[ 98%] Generating CMakeFiles/messages.xml
+['/usr/bin/castxml', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DCMAKER', '-DFIRMWARE_VERSION=No\\ svn\\ information', '-DPACKAGE_VERSION=Branch:\\ master\\ Abrev.\\ Hash:\\ 9927838\\ Date:\\ Tue\\ Oct\\ 25\\ 22:44:45\\ 2016\\ +0200', '-DPACKAGE_BUGREPORT=openair4g-devel@lists.eurecom.fr', '-DXFORMS', '-DENABLE_ITTI', '-DRel10=1', '-DS1AP_VERSION=R10', '-DX2AP_VERSION=R11', '-DNB_ANTENNAS_RX=2', '-DNB_ANTENNAS_TX=2', '-DNB_ANTENNAS_TXRX=2', '-DOAI_USRP=1', '-DNone=1', '-DENABLE_SECURITY', '-DENABLE_USE_MME', '-DNO_RRM', '-DUSER_MODE', '-DOAI_NW_DRIVER_USE_NETLINK', '-DPACKAGE_NAME=lte-softmodem', '-DENB_AGENT', '-DENB_MODE', '-DENABLE_USE_CPU_EXECUTION_TIME', '-DENABLE_VCD', '-DENABLE_VCD_FIFO', '-DLOG_NO_THREAD', '-DOPENAIR_LTE', '-DDRIVER2013', '-DENABLE_FXP', '-DEXMIMO_IOT', '-DMAX_NUM_CCs=1', '-DNEW_FFT', '-DOPENAIR1', '-DPC_DSP', '-DPC_TARGET', '-DPHYSIM', '-DPHY_CONTEXT', '-DPUCCH', '-DENABLE_NAS_UE_LOGGING', '-DNAS_BUILT_IN_UE', '-DNAS_UE', '-DMAC_CONTEXT', '-DJUMBO_FRAME', '-DOPENAIR2', '-DTRACE_RLC_MUTEX', '-DLINK_ENB_PDCP_TO_GTPV1U', '-DNETTLE_VERSION_MAJOR=3', '-DNETTLE_VERSION_MINOR=2', '-DASN1_MINIMUM_VERSION=924', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/cmake_targets/lte_build_oai/build/CMakeFiles/Rel10', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/cmake_targets/lte_build_oai/build/CMakeFiles/R10.5', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/cmake_targets/lte_build_oai/build/CMakeFiles/R11.2', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/X2AP', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/LIB', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/EXMIMO/DEFS', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/BLADERF/USERSPACE/LIB', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/LMSSDR/USERSPACE/LIB', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/ETHERNET/USERSPACE/LIB', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB', '-I/opt/include/uhd', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/COMMON', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/cmake_targets/lte_build_oai/build/CMakeFiles', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/COMMON', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LOG', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/COMMON', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/UTILS', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/NAS', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/AM_v9.3.0', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/UM_v9.3.0', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/RLC/TM_v9.3.0', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/LAYER2/PDCP_v10.1.0', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/MESSAGES', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/RAL-LTE/INTERFACE-802.21/INCLUDE', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/RAL-LTE/LTE_RAL_ENB/INCLUDE', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/RAL-LTE/LTE_RAL_UE/INCLUDE', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/API/NETWORK', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/EMM/MSG', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/ESM/MSG', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/IES', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/COMMON/UTIL', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SECU', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/SCTP', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/S1AP', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/X2AP', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/UDP', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/GTPV1-U', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/COMMON', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/COMMON', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/EXMIMO/USERSPACE/LIB', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/EXMIMO/DEFS', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/ENB_APP', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OSA', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/inc', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/MEM', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LISTS', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/FIFO', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OCG', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/MATH', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/TIMER', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMG', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OTG', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/CLI', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OPT', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/OMV', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/RRC/LITE/MESSAGES', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/GTPV1-U/nw-gtpv1u/shared', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/GTPV1-U/nw-gtpv1u/include', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/hashtable', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/msc', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/API/USER', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/API/USIM', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/EMM/SAP', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/ESM/SAP', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/UTIL/LFDS/liblfds6.1.1/liblfds611/src', '-I/usr/include/libxml2', '-I/usr/include/libxml2', '-I/usr/include/pgm-5.2', '-I/usr/lib/x86_64-linux-gnu/pgm-5.2/include', '-I/usr/include/atlas', '-I/usr/include/X11', '-I/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/T', '-std=gnu89', '/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/intertask_interface_types.h', '--castxml-gccxml', '-o', '/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/cmake_targets/lte_build_oai/build/CMakeFiles/messages.xml']
+In file included from /home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/intertask_interface_types.h:32:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/COMMON/platform_types.h:200:18: warning: redefinition of typedef 'instance_t' is a C11 feature [-Wtypedef-redefinition]
+typedef uint16_t instance_t;
+                 ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/itti_types.h:74:18: note: previous definition is here
+typedef uint16_t instance_t;
+                 ^
+In file included from /home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/common/utils/itti/intertask_interface_types.h:56:
+In file included from /home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/COMMON/messages_types.h:39:
+In file included from /home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/COMMON/rrc_messages_types.h:32:
+In file included from /home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/COMMON/as_message.h:44:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/COMMON/commonDef.h:46:28: warning: redefinition of typedef 'boolean_t' is a C11 feature [-Wtypedef-redefinition]
+typedef signed char        boolean_t;
+                           ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair2/COMMON/platform_types.h:43:28: note: previous definition is here
+typedef signed char        boolean_t;
+                           ^
+2 warnings generated.
+[ 98%] Generating CMakeFiles/messages_xml.h
+Scanning dependencies of target lte-softmodem
+[ 98%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/rt_wrapper.c.o
+[ 98%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-ue.c.o
+[ 98%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SIMULATION/TOOLS/taus.c.o
+[ 98%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c.o
+[ 98%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/COMMON/common_lib.c.o
+[ 98%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-softmodem.c.o
+[100%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/SIMU/USER/init_lte.c.o
+[100%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/COMMON/create_tasks.c.o
+[100%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/SIMULATION/ETH_TRANSPORT/netlink_init.c.o
+[100%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/NAS/UE/nas_ue_task.c.o
+[100%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair3/GTPV1-U/gtpv1u_eNB.c.o
+[100%] Building CXX object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/ARCH/USRP/USERSPACE/LIB/usrp_lib.cpp.o
+[100%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/openair1/PHY/TOOLS/lte_phy_scope.c.o
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c: In function ‘mac2phy_proc’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:1347:16: warning: unused variable ‘aa’ [-Wunused-variable]
+     uint32_t i,aa;
+                ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c: In function ‘cch_proc’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:1591:10: warning: variable ‘num_pdcch_symbols’ set but not used [-Wunused-but-set-variable]
+  uint8_t num_pdcch_symbols=0;
+          ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c: In function ‘viterbi_proc’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:1914:6: warning: unused variable ‘i’ [-Wunused-variable]
+  int i,UE_id;
+      ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c: In function ‘pusch_proc’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2232:11: warning: variable ‘round’ set but not used [-Wunused-but-set-variable]
+  uint32_t round;
+           ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c: In function ‘init_eNB_proc’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2496:32: warning: too many arguments for format [-Wformat-extra-args]
+  snprintf( name, sizeof(name), " MAC to PHY thread", NULL );
+                                ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2496:32: warning: too many arguments for format [-Wformat-extra-args]
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2498:32: warning: too many arguments for format [-Wformat-extra-args]
+  snprintf( name, sizeof(name), " Control_channel thread", NULL );
+                                ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2498:32: warning: too many arguments for format [-Wformat-extra-args]
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2500:32: warning: too many arguments for format [-Wformat-extra-args]
+  snprintf( name, sizeof(name), " OFDM thread", NULL );
+                                ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2500:32: warning: too many arguments for format [-Wformat-extra-args]
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2511:32: warning: too many arguments for format [-Wformat-extra-args]
+  snprintf( name, sizeof(name), " PUCCH thread", NULL );
+                                ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2511:32: warning: too many arguments for format [-Wformat-extra-args]
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2513:32: warning: too many arguments for format [-Wformat-extra-args]
+  snprintf( name, sizeof(name), " PUSCH thread", NULL );
+                                ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2513:32: warning: too many arguments for format [-Wformat-extra-args]
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2392:19: warning: unused variable ‘tt1’ [-Wunused-variable]
+   struct timespec tt1;
+                   ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c: At top level:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:1736:14: warning: ‘TX_timing_thread’ defined but not used [-Wunused-function]
+ static void* TX_timing_thread( void* arg){
+              ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:1905:14: warning: ‘viterbi_proc’ defined but not used [-Wunused-function]
+ static void* viterbi_proc( void* arg){
+              ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:2352:14: warning: ‘RX_timing_thread’ defined but not used [-Wunused-function]
+ static void* RX_timing_thread( void* arg){
+              ^
+[100%] Building C object CMakeFiles/lte-softmodem.dir/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/stats.c.o
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c: In function ‘multi_sch_proc’:
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:1857:29: warning: ‘subframe’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         num_pdcch_symbols = get_num_pdcch_symbols(DCI_pdu->Num_ue_spec_dci+DCI_pdu->Num_common_dci,DCI_pdu->dci_alloc,fp,subframe);
+                             ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:1844:15: warning: ‘frame’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     DCI_pdu = mac_xface->get_dci_sdu(eNB->Mod_id,
+               ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:1857:29: warning: ‘fp’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+         num_pdcch_symbols = get_num_pdcch_symbols(DCI_pdu->Num_ue_spec_dci+DCI_pdu->Num_common_dci,DCI_pdu->dci_alloc,fp,subframe);
+                             ^
+/home/isip/Desktop/TEST/mix_DL_UL/openairinterface5g/targets/RT/USER/lte-enb.c:1854:5: warning: ‘proc’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     fill_dci(DCI_pdu,eNB,proc);
+     ^
+[100%] Linking CXX executable lte-softmodem
+[100%] Built target lte-softmodem
